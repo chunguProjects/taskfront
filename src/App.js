@@ -12,7 +12,10 @@ import Task from "./components/task.component";
 
  class App extends Component {
   render() {
+  <small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+
     return (
+      
       <div className = "App">
         <nav className="navbar navbar-expand navbar-dark bg-dark">
           <a href="/Home.js" className="navbar-brand">
